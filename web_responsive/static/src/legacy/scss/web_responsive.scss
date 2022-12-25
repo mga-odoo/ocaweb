@@ -89,9 +89,9 @@ html .o_web_client .o_action_manager .o_action {
             .modal-content {
                 @include media-breakpoint-up(xl, $o-extra-grid-breakpoints) {
                     .o_inner_group {
-                        .o_td_label {
-                            min-width: 260px !important;
-                        }
+                        // .o_td_label {
+                        //     min-width: 260px !important;
+                        // }
                     }
                 }
                 @include media-breakpoint-between(lg, xl, $o-extra-grid-breakpoints) {
@@ -108,9 +108,9 @@ html .o_web_client .o_action_manager .o_action {
                 .o_content,
                 .modal-content {
                     .o_inner_group {
-                        .o_td_label {
-                            min-width: 260px !important;
-                        }
+                        // .o_td_label {
+                        //     min-width: 260px !important;
+                        // }
                     }
                 }
             }
